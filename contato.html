@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Contato</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+        <img class="dindin" src="logo-header.png" alt="dindin">
+        <nav class="menu">
+            <a class="contato" href="#">Cursos</a>
+            <a class="contato" href="#">Blog</a>
+            <a class="contato" id="contato-id" href="#">Contato</a>
+        </nav>
+    </div>
+  </header>
+  <main>
+    <div>
+        <h1 class="h1contato">Contato</h1>
+    </div>
+    <div class="cointainer-form">
+        <form action="/pagina-processa-dados-do-form" method="post">
+            <div>
+                <label id="label-nome" for="name">Nome:</label>
+                <input type="text" id="name" />
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" />
+            </div>
+            <div>
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Entrar</button>
+            </div>
+        </form>
+       
+    </div>
+    <footer>
+        <div class="container-footer">
+            <div class="logo"><img src="logo-footer.png" alt="logo-footer"></div>
+            <div class="curso">
+                <p>cursos</p>
+                <p>blog</p>
+                <p>contato</p>
+            </div>
+            <div class="btn"><button class="btn-footer">quero ser prof</button> <br>
+                <button class="btn-footer">aqui tem outro link</button>
+            </div>
+        </div>
+    </footer>
+  </main>
+    
+</body>
+</html>
