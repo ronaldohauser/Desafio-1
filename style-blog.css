@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
 * {
     font-family: 'Ubuntu', sans-serif;
     margin: auto;
@@ -50,92 +48,81 @@
 }
 
 /* ------------------------------ Main ------------------------------ */
-.conteudo-principal {
+.intro {
     display: grid;
     grid-template-columns: auto auto;
-    width: 1500px;
-    margin-left: 150px;
+    width: 1200px;
+    margin-top: 50px;
 }
 
-.conteudo-principal-escrito {
-    margin-left: 202px;
-    margin-top: 117px;
-    margin-right: 0%;
-    height: 186px;
+#titulo {
+    height: 108px;
     width: 461px;
-}
-
-.texto-h1 {
-    width: 512px;
-    height: 126px;
+    color: #009688;
+    font-size: 47px;
     font-weight: 700;
-    font-size: 55px;
-    line-height: 63px;
-    color: #ff4081;
-    margin-left: 0px;
+    text-align: left;
+    margin-bottom: 40px;
 }
 
-.texto-h2 {
+#texto {
+    height: 110px;
     width: 461px;
-    height: 186px;
-    font-weight: 400;
     font-size: 20px;
-    line-height: 31px;
-    color: #555555;
-}
-
-.ilustra-poupando {
-    width: 380px;
-    height: 381px;
-    margin-top: 135px;
-    margin-bottom: 65px;
-}
-
-.backgound-aulas {
-    background-color: #f6f6f6;
-    padding-bottom: 75px;
-    padding-top: 50px;
-}
-
-.container-aulas {
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 1300px;
-    margin-bottom: 75px;
-    margin-top: 75px;
-}
-
-.texto-aula {
-    width: 512px;
-    height: 40px;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 40px;
-    color: #FF4081;
-    margin-bottom: 30px;
-}
-
-.paragrafo-aula {
-    width: 501px;
-    height: 195px;
     font-weight: 300;
-    font-size: 20px;
     line-height: 23px;
-    color: #000000;
+    text-align: left;
+    margin: 0%;
 }
 
-hr {
-    height: 5px;
-    width: 1vm;
-    border-radius: 0px;
-    margin-left: 5%;
-    margin-right: 5%;
-    background: #C4C4C4;
+#imagem-intro {
+    height: 405px;
+    width: 405px;
+    margin-bottom: 90px;
+}
+
+#background-posts {
+    background-color: #E5E5E5;
+    padding-top: 110px;
+}
+
+.posts-blog {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 1200px;
+}
+
+.post {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.imagem-post {
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+.titulo-post {
+    height: 34px;
+    width: 450px;
+    color: #FF4081;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.texto-post {
+    width: 450px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
     margin-bottom: 100px;
 }
 
 /* ------------------------------ Footer (copiar para todas as paginas) ------------------------------ */
-
 .logo {
     grid-area: logo;
 }
@@ -171,24 +158,14 @@ hr {
     margin-top: 10px;
 }
 
-.curso {
-    font-size: 20px;
-}
-
 @media only screen and (max-width: 850px) {
-    .conteudo-principal {
-        grid-template-columns: auto;
-        margin-left: 0%;
-        margin-bottom: 33%;
-    }
-
-    .ilustra-poupando {
+    .imagem-intro {
         display: none;
     }
 
-    .container-aulas {
+    .posts-blog {
         grid-template-columns: auto;
-        margin-left: -27%;
+        margin-left: -23%;
     }
 }
 
@@ -209,36 +186,39 @@ hr {
     }
 /* ------ Fim header usar em todas as paginas ------ */
 
-.conteudo-principal {
-    margin-bottom: 100%;
+.conteudo-intro {
+    margin-left: 2%;
 }
 
-.texto-h1 {
+#titulo {
     font-size: 25px;
-    margin-left: -40%;
+    width: 300px;
+    margin-bottom: 0px;
 }
 
-.texto-h2 {
-    font-size: 18px;
-    margin-left: -40%;
-    width:40vh;
+#texto {
+    font-size: 15px;
+    width: 300px;
 }
 
-.container-aulas {
-    margin-left: 0%;
-    width: 350px;
+.posts-blog {
+    margin-left: -110%;
 }
 
-.video {
-    width: 280px;
-    height: 157.5px;
-    margin-left: -30%;
+.imagem-post {
+    width: 260px;
 }
 
-.paragrafo-aula {
-    width: 40vh;
-    margin-left: 5%;
+.titulo-post {
+    width: 260px;
+    margin-bottom: 50px;
 }
+
+.texto-post {
+    width: 260px;
+}
+
+
 
 /* ------ Footer usar em todas as paginas ------ */
 .container-footer {
