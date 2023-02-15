@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
+}
+
+/* ------------------------------ Header (copiar para todas as paginas) ------------------------------ */
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #2E948A;
+    width: 100%;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.header a {
+    text-decoration: none;
+}
+
+/* logo */
+.dindin {
+    width: 244px;
+    height: 77px;
+    margin-left: 82px;
+    margin-top: 20px;
+    margin-bottom: 26px;
+}
+
+/* curso blog contato */
+.menu {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px;
+}
+
+.contato {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 10px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+#contato-id {
+    margin-right: 93px;
+}
+
+/* ------------------------------ Main (copiar para todas as paginas) ------------------------------ */
+
+.conteudo-principal {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.conteudo-principal-escrito {
+    margin-left: 202px;
+    margin-top: 117px;
+}
+
+.texto-h1 {
+   width: 512px;
+   height: 126px;
+   left: 202px;
+   top: 210px;
+   font-family:'Ubuntu';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 55px;
+   line-height: 63px;
+   color: #ff4081;
+}
+
+.texto-h2 {
+    width: 461px;
+    height: 186px;
+    left: 202px;
+    top: 358px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #555555;
+}
+
+.ilustra-poupando{
+    width: 501px;
+    height: 511px;
+    margin-top: 135px;
+    margin-right: 206px;
+    margin-left: 39px;
+    margin-bottom: 65px;
+}
+
+.container-aulas{
+    background-color: #f6f6f6;
+    height: 1235px;
+    width: 1440px;
+    left: 0px;
+    top: 659px;
+    border-radius: 0px;
+}
+
+#Aula-1{
+    position: absolute;
+    width: 512px;
+    height: 40px;
+    left: 751px;
+    top: 734px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+#paragrafo-aula-1{
+    position: absolute;
+    width: 501px;
+    height: 195px;
+    left: 751px;
+    top: 800px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+#retangulo1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 462px;
+    height: 261px;
+    left: 213px;
+    top: 734px;
+    border: 3px solid #8E8E8E;
+}
+
+#elipse1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 399px;
+    top: 820px;
+    border: 1px solid #000000;
+}
+
+#play1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 56px;
+    height: 53px;
+    left: 417px;
+    top: 839px;
+    border: 1px solid #000000;
+}
+
+#Aula-2{
+    position: absolute;
+    width: 106px;
+    height: 40px;
+    left: 750px;
+    top: 1146px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    
+    color: #FF4081; 
+}
+
+#paragrafo-aula-2{
+    position: absolute;
+width: 501px;
+height: 195px;
+left: 750px;
+top: 1212px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+#retangulo2{
+box-sizing: border-box;
+position: absolute;
+width: 462px;
+height: 261px;
+left: 212px;
+top: 1146px;
+border: 3px solid #8E8E8E;
+}
+
+#elipse2{
+box-sizing: border-box;
+position: absolute;
+width: 90px;
+height: 90px;
+left: 398px;
+top: 1232px;
+border: 1px solid #000000;
+}
+
+#play2{
+box-sizing: border-box;
+position: absolute;
+width: 56px;
+height: 53px;
+left: 417px;
+top: 1249.37px;
+border: 1px solid #000000;
+}
+
+#Aula-3{
+    position: absolute;
+width: 512px;
+height: 40px;
+left: 750px;
+top: 1558px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 40px;
+
+color: #FF4081;
+}
+
+#paragrafo-aula-3{
+    position: absolute;
+width: 501px;
+height: 195px;
+left: 750px;
+top: 1624px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+#retangulo3{
+    box-sizing: border-box;
+
+position: absolute;
+width: 462px;
+height: 261px;
+left: 212px;
+top: 1558px;
+
+border: 3px solid #8E8E8E;
+}
+
+#elipse3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 398px;
+    top: 1644px;
+    
+    border: 1px solid #000000; 
+}
+
+#play3{
+    box-sizing: border-box;
+
+position: absolute;
+width: 56px;
+height: 53px;
+top: 1661.37px;
+left: 417px;
+border: 1px solid #000000;
+}
+
+.logo {grid-area: logo;}
+.curso {grid-area: curso;}
+.btn {grid-area: btn;}
+
+.container-footer {
+    display: grid;
+    grid-template-areas: 'logo curso btn';
+    background-color: #2E948A;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFff;
+}
+
+.btn-footer {
+    box-sizing: border-box;
+    width: 250px;
+    height: 40px;
+    border: 2px solid #FFff;
+    border-radius: 62px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 31px;
+    color: #FFff;
+    background-color: #009688;
+    margin-top: 10px;
+}
+
+.curso {
+    font-size: 20px;
+}
