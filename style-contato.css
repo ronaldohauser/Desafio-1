@@ -1,0 +1,259 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
+}
+
+body {
+    font-size: 100%;
+    color: #E5E5E5;
+}
+
+/* ------------------------------ Header (copiar para todas as paginas) ------------------------------ */
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #2E948A;
+    width: 100%;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.header a {
+    text-decoration: none;
+}
+
+/* logo */
+.dindin {
+    width: 244px;
+    height: 77px;
+    margin-left: 82px;
+    margin-top: 20px;
+    margin-bottom: 26px;
+}
+
+/* curso blog contato */
+.menu {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px;
+}
+
+.contato {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 10px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+#contato-id {
+    margin-right: 93px;
+}
+
+/* ------------------------------ Formulário ------------------------------ */
+.novo-contato{
+    width: 154px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #ff4081;
+    margin-left: 136px;
+    margin-top: 222px;
+}
+
+.main{
+    position: absolute;
+    top: 222px;
+    left: 136px;
+}
+
+h1{
+    position: absolute;
+    bottom: 89.02%;
+    color: #ff4081;
+    width: 154px;
+    height: 46px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45.96px;
+}
+
+#type-nome{
+    position: absolute;
+    display: inline-block;
+    width: 493px;
+    height: 32px;
+    top: 90px;
+    left: 3px;
+    border-radius: 7px;
+}
+
+#type-email{
+    position: absolute;
+    display: inline-block;
+    width: 493px;
+    height: 32px;
+    top: 137px;
+    left: 3px;
+    border-radius: 7px;
+}
+
+#type-mensagem{
+    position: absolute;
+    display: inline-block;
+    width: 493px;
+    height: 193px;
+    top: 183px;
+    left: 3px;
+    border-radius: 7px;
+}
+
+#entrar{
+    position: absolute;
+    left: 0.6%;
+    width: 108px;
+    height: 32px;
+    top: 391px;
+    left: 3px;
+    border-radius: 50px;
+    border-color: transparent;
+    background: #ff4081;
+    color: #FFff;
+}
+
+#ilustra-contato{
+    width: 444px;
+    height: 444px;
+    margin-top: px;
+    margin-right: 163px;
+    margin-left: 833px;
+    margin-bottom: 306px;
+}
+
+
+.container-footer{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* ------------------------------ Footer (copiar para todas as paginas) ------------------------------ */
+
+.logo {
+    grid-area: logo;
+}
+
+.curso {
+    grid-area: curso;
+}
+
+.btn {
+    grid-area: btn;
+}
+
+.container-footer {
+    display: grid;
+    grid-template-areas: 'logo curso btn';
+    background-color: #2E948A;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFff;
+}
+
+.btn-footer {
+    box-sizing: border-box;
+    width: 250px;
+    height: 40px;
+    border: 2px solid #FFff;
+    border-radius: 62px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 31px;
+    color: #FFff;
+    background-color: #009688;
+    margin-top: 10px;
+}
+
+.curso {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+    .conteudo-principal {
+        grid-template-columns: auto;
+        margin-left: 0%;
+        margin-bottom: 33%;
+    }
+
+    .ilustra-poupando {
+        display: none;
+    }
+
+    .container-aulas {
+        grid-template-columns: auto;
+        margin-left: -27%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+/* ------ Inicio header usar em todas as paginas ------ */
+    .dindin {
+        width: 200px;
+        height: 70px;
+    }
+
+    .menu {
+        grid-template-columns: auto;
+    }
+
+    .contato {
+        margin: 3px;
+        margin-left: 60px;
+    }
+/* ------ Fim header usar em todas as paginas ------ */
+
+.conteudo-principal {
+    margin-bottom: 100%;
+}
+
+.texto-h1 {
+    font-size: 25px;
+    margin-left: -40%;
+}
+
+.texto-h2 {
+    font-size: 18px;
+    margin-left: -40%;
+    width:40vh;
+}
+
+.container-aulas {
+    margin-left: 0%;
+    width: 350px;
+}
+
+.video {
+    width: 280px;
+    height: 157.5px;
+    margin-left: -30%;
+}
+
+.paragrafo-aula {
+    width: 40vh;
+    margin-left: 5%;
+}
+
+/* ------ Footer usar em todas as paginas ------ */
+.container-footer {
+    grid-template-areas:
+        'logo curso'
+        'btn btn';
+}
+/* ------ Footer usar em todas as paginas ------ */
+}
