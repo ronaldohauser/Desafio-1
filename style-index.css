@@ -30,6 +30,7 @@ body {
     margin-left: 82px;
     margin-top: 20px;
     margin-bottom: 26px;
+    cursor: pointer;
 }
 
 /* curso blog contato */
@@ -93,6 +94,7 @@ body {
     font-size: 27px;
     line-height: 31px;
     color: #FF4081;
+    cursor: pointer;
 }
 
 .ilustra-banner {
@@ -158,6 +160,7 @@ body {
     color: #ffffff;
     margin-top: 25px;
     margin-left: 40px;
+    cursor: pointer;
 }
 
 /* ------------------------------ O que falam sobre nós ------------------------------ */
@@ -210,6 +213,7 @@ h1 {
 .img-porco {
     width: 319px;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
 #ver-posts {
@@ -224,6 +228,7 @@ h1 {
     line-height: 31px;
     color: #FF4081;
     margin-left: 40%;
+    cursor: pointer;
 }
 
 /* ------------------------------ Footer (copiar para todas as paginas) ------------------------------ */
@@ -252,6 +257,7 @@ h1 {
     color: #FFff;
     background-color: #009688;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .curso {

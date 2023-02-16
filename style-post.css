@@ -25,6 +25,7 @@
     margin-left: 82px;
     margin-top: 20px;
     margin-bottom: 26px;
+    cursor: pointer;
 }
 
 /* curso blog contato */
@@ -175,6 +176,7 @@
     color: #ffffff;
     margin-top: 25px;
     margin-left: 40px;
+    cursor: pointer;
 }
 
 /* ------------------------------ Footer (copiar para todas as paginas) ------------------------------ */
@@ -211,6 +213,7 @@
     color: #FFff;
     background-color: #009688;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 850px) {

@@ -30,6 +30,7 @@ body {
     margin-left: 82px;
     margin-top: 20px;
     margin-bottom: 26px;
+    cursor: pointer;
 }
 
 /* curso blog contato */
@@ -123,6 +124,7 @@ h1{
     border-color: transparent;
     background: #ff4081;
     color: #FFff;
+    cursor: pointer;
 }
 
 #ilustra-contato{
@@ -178,6 +180,7 @@ h1{
     color: #FFff;
     background-color: #009688;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .curso {
@@ -218,36 +221,31 @@ h1{
     }
 /* ------ Fim header usar em todas as paginas ------ */
 
-.conteudo-principal {
-    margin-bottom: 100%;
-}
-
-.texto-h1 {
-    font-size: 25px;
-    margin-left: -40%;
-}
-
-.texto-h2 {
-    font-size: 18px;
-    margin-left: -40%;
-    width:40vh;
-}
-
-.container-aulas {
-    margin-left: 0%;
-    width: 350px;
-}
-
-.video {
-    width: 280px;
-    height: 157.5px;
-    margin-left: -30%;
-}
-
-.paragrafo-aula {
-    width: 40vh;
-    margin-left: 5%;
-}
+    .curso-blocos {
+        height:100%;
+        width: 100%;
+        margin-left: 10%;
+    }
+    
+    #poupando {
+        margin-top: 25%;
+        margin-left: -20%;
+        height: 190px;
+        width: 191px;
+    }
+    
+    #investimento {
+        margin-left: -20%;
+        height: 192.5px;
+        width: 190px;
+    }
+    
+    #independencia {
+        margin-left: -20%;
+        height: 246.5px;
+        width: 190px;
+    }
+    
 
 /* ------ Footer usar em todas as paginas ------ */
 .container-footer {

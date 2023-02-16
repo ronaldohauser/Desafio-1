@@ -25,6 +25,7 @@
     margin-left: 82px;
     margin-top: 20px;
     margin-bottom: 26px;
+    cursor: pointer;
 }
 
 /* curso blog contato */
@@ -89,6 +90,7 @@ h2 {
     font-weight: 400;
     font-size: 18px;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .curso-blocos {
@@ -161,6 +163,7 @@ hr {
     color: #FFff;
     background-color: #009688;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .curso {
