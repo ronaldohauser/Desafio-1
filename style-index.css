@@ -143,6 +143,8 @@ body {
     line-height: 29px;
     text-align: center;
     color: #FF4081;
+    margin-bottom: 25px;
+    margin-top: 45px;
 }
 
 .botao-comecar {
@@ -154,6 +156,8 @@ body {
     font-weight: 400;
     font-size: 18px;
     color: #ffffff;
+    margin-top: 25px;
+    margin-left: 40px;
 }
 
 /* ------------------------------ O que falam sobre nós ------------------------------ */
