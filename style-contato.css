@@ -54,6 +54,18 @@ body {
 }
 
 /* ------------------------------ Formulário ------------------------------ */
+
+.form-e-img {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 1800px;
+}
+
+#formulario-botao {
+    margin-top: 20%;
+    margin-bottom: 0%;
+}
+
 .novo-contato{
     width: 154px;
     height: 46px;
@@ -66,25 +78,23 @@ body {
 }
 
 .main{
-    position: absolute;
     top: 222px;
     left: 136px;
 }
 
 h1{
-    position: absolute;
     bottom: 89.02%;
     color: #ff4081;
     width: 154px;
     height: 46px;
-    font-family: 'Ubuntu';
     font-weight: 700;
     font-size: 40px;
     line-height: 45.96px;
+    margin-left: 0%;
+    margin-bottom: 5%;
 }
 
 #type-nome{
-    position: absolute;
     display: inline-block;
     width: 493px;
     height: 32px;
@@ -94,7 +104,6 @@ h1{
 }
 
 #type-email{
-    position: absolute;
     display: inline-block;
     width: 493px;
     height: 32px;
@@ -104,7 +113,6 @@ h1{
 }
 
 #type-mensagem{
-    position: absolute;
     display: inline-block;
     width: 493px;
     height: 193px;
@@ -114,7 +122,6 @@ h1{
 }
 
 #entrar{
-    position: absolute;
     left: 0.6%;
     width: 108px;
     height: 32px;
@@ -125,24 +132,13 @@ h1{
     background: #ff4081;
     color: #FFff;
     cursor: pointer;
+    margin-top: 5%;
+    margin-bottom: 50%;
 }
 
 #ilustra-contato{
     width: 444px;
     height: 444px;
-    margin-top: px;
-    margin-right: 163px;
-    margin-left: 833px;
-    margin-bottom: 306px;
-}
-
-
-.container-footer{
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 /* ------------------------------ Footer (copiar para todas as paginas) ------------------------------ */
@@ -188,19 +184,14 @@ h1{
 }
 
 @media only screen and (max-width: 850px) {
-    .conteudo-principal {
-        grid-template-columns: auto;
-        margin-left: 0%;
-        margin-bottom: 33%;
-    }
 
-    .ilustra-poupando {
+    #ilustra-contato {
         display: none;
     }
 
-    .container-aulas {
-        grid-template-columns: auto;
-        margin-left: -27%;
+    #formulario-botao {
+        margin-left: 10%;
+        margin-top: 5%;
     }
 }
 
@@ -221,31 +212,37 @@ h1{
     }
 /* ------ Fim header usar em todas as paginas ------ */
 
-    .curso-blocos {
-        height:100%;
-        width: 100%;
-        margin-left: 10%;
-    }
-    
-    #poupando {
-        margin-top: 25%;
-        margin-left: -20%;
-        height: 190px;
-        width: 191px;
-    }
-    
-    #investimento {
-        margin-left: -20%;
-        height: 192.5px;
-        width: 190px;
-    }
-    
-    #independencia {
-        margin-left: -20%;
-        height: 246.5px;
-        width: 190px;
-    }
-    
+.main h1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container-btn {
+    margin-left: 5%;
+}
+
+#type-nome {
+    width: 300px;
+}
+
+#type-email {
+    width: 300px;
+}
+
+#type-mensagem {
+    width: 300px;
+    margin-bottom: 5%;
+}
+
+#entrar {
+    margin-bottom: 8%;
+    margin-left: 5%;
+}
+
+#formulario-botao {
+    margin-left: 1%;
+    margin-top: 5%;
+}
 
 /* ------ Footer usar em todas as paginas ------ */
 .container-footer {
